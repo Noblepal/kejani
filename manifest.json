@@ -1,0 +1,32 @@
+{
+  "name": "Kejani",
+  "short_name": "kej",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#efefef",
+  "theme_color": "#29b6f6",
+  "splash_pages": null,
+  "icons": [
+    {
+      "src": "mipmap.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "mipmap.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "mipmap.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "mipmap.png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "mipmap.png",
+      "sizes": "32x32"
+    }
+  ]
+}

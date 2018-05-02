@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="kej">
+  <meta name="apple-mobile-web-app-title" content="kej">
+  <meta name="theme-color" content="#29b6f6">
+  <meta name="msapplication-navbutton-color" content="#29b6f6">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Welcome To Kejani</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" href="assets/icons/site-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="icon" sizes="512x512" href="mipmap.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="mipmap.png">
+  <link rel="icon" sizes="256x256" href="mipmap.png">
+  <link rel="apple-touch-icon" sizes="256x256" href="mipmap.png">
+  <link rel="icon" sizes="128x128" href="mipmap.png">
+  <link rel="apple-touch-icon" sizes="128x128" href="mipmap.png">
+  <link rel="icon" sizes="64x64" href="mipmap.png">
+  <link rel="apple-touch-icon" sizes="64x64" href="mipmap.png">
+  <link rel="icon" sizes="32x32" href="mipmap.png">
+  <link rel="apple-touch-icon" sizes="32x32" href="mipmap.png">
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // Check that service workers are registered
+    if ('serviceWorker' in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Kejani</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Log In</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Welcome To Kejani</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A simple tool to assist in your building construction</h5>
+      </div>
+      <div class="row center">
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">home</i></h2>
+            <h5 class="center">Build Your Own Home</h5>
+
+            <p class="light">We will provide you with all the tools to help you plan your construction, choose an architect and begin your construction. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">attach_money</i></h2>
+            <h5 class="center">Estimate The Cost</h5>
+
+            <p class="light">We have integrated a thorough algorithm which will help you to estimate the cost of your construction project.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">camera</i></h2>
+            <h5 class="center">Monitor Construction Progress</h5>
+
+            <p class="light">We provide you with a platform to monitor your construction just from your smartphone, you will receive regular updates from the construction site in form of location-specific pictures as well as short videos of the same.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Kejani</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Create an account</a></li>
+            <li><a class="white-text" href="#!">Log In</a></li>
+            <li><a class="white-text" href="#!">Contact</a></li>
+            <li><a class="white-text" href="#!">About</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul class="social">
+            <li><a class="white-text" href="#!"><i class="fa fa-2x fa-facebook"></i> &nbsp;Kejani Superior Homes</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-2x fa-twitter"></i> &nbsp;@kejani_superior_homes</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-2x fa-google-plus"></i> &nbsp;Kejani Superior Homes</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-2x fa-linkedin"></i> &nbsp;Kejani Superior Homes</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      &copy;2018 <a class="orange-text text-lighten-3" href="#">Icelabs</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
