@@ -1,11 +1,22 @@
 {
   "name": "material_kejani",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noblepal/kejani.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noblepal/kejani/issues"
+  },
+  "homepage": "https://github.com/Noblepal/kejani#readme",
+  "description": "",
+  "dependencies": {
+    "workbox-sw": "^3.1.0"
+  }
 }

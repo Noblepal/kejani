@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="kej">
+    <meta name="apple-mobile-web-app-title" content="kej">
+    <meta name="theme-color" content="#29b6f6">
+    <meta name="msapplication-navbutton-color" content="#29b6f6">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kejani | Sign In</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</head>
+
+<body>
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Kejani</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a> </li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <center>
+            <div class="section"></div>
+    
+            <h5 class="indigo-text">Create an account</h5>
+            <div class="section"></div>
+    
+            <div class="container">
+                <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+    
+                    <form class="col s12" method="post">
+                        <div class='row'>
+                            <div class='col s12'>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <i class="material-icons prefix">account_circle</i>
+                                <input class='validate' type='text' name='fname' id='fname' />
+                                <label for='fname'>Enter your first name</label>
+                            </div>
+                        </div>
+
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <i class="material-icons prefix">account_circle</i>
+                                <input class='validate' type='text' name='lname' id='lname' />
+                                <label for='lname'>Enter your last name</label>
+                            </div>
+                        </div>
+
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <i class="material-icons prefix">email</i>
+                                <input class='validate' type='email' name='email' id='email' />
+                                <label for='email'>Enter your email</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <label>
+                                    <input class="with-gap" name="gender" type="radio"/>
+                                    <span>Male</span>
+                                </label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <label>
+                                        <input class="with-gap" name="gender" type="radio"/>
+                                        <span>Female</span>
+                                    </label>
+                                </div>
+                            </div>
+    
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input class='validate' type='password' name='password' id='password' />
+                                <label for='password'>Enter your password</label>
+                            </div>
+                            
+                            <label style='float: right;'>
+                                <a class='green-text' href='#!'>
+                                    <b>Generate Password</b>
+                                </a>
+                            </label>
+
+                            <div class="switch">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    <span class="lever"></span>
+                                    Log me in
+                                </label>
+                            </div>
+                        </div>
+    
+                        <br />
+                        <center>
+                            <div class='row'>
+                                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+                            </div>
+                        </center>
+                    </form>
+                </div>
+            </div>
+            <a href="login.html">Already have an account? Log in</a>
+        </center>
+    
+        <div class="section"></div>
+        <div class="section"></div>
+    </main>
+    <script>
+        $(document).ready(function () {
+                $('select').material_select();
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
